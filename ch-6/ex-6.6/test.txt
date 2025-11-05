@@ -1,0 +1,6 @@
+#define PI 3.14
+#define MAX 100
+radius * PI
+value MAX
+#undef PI
+PI

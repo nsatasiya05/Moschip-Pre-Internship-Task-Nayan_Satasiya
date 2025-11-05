@@ -1,0 +1,23 @@
+# Makefile for compiling and running ex-1.2.c
+
+# Compiler
+CC = gcc
+
+# Source and Output
+SRC = ex-1.3.c
+OUT = ex-1.3
+
+# Default target
+all: build run
+
+# Compile the program
+build:
+	$(CC) $(SRC) -o $(OUT)
+
+# Run the program
+run:
+	./$(OUT)
+
+# Clean the compiled files
+clean:
+	del $(OUT).exe
